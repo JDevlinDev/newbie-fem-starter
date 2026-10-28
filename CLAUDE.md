@@ -13,5 +13,7 @@ A Frontend Mentor challenge: static HTML + Sass, bundled with Parcel, deployed t
 
 ## Sass
 
-- `src/scss/style.scss` is the root stylesheet. Each folder has an `_index.scss` that `@forward`s its partials. Use `@use`/`@forward`, never `@import`.
-- `utils/_mixins.scss` provides `breakpoints()` (`sm` 16rem, `md` 48rem, `lg` 62rem, `xl` 75rem). Use it with `@use "../utils/mixins" as *;`.
+- 7-1 pattern: `abstracts/`, `vendors/`, `base/`, `themes/`, `layout/`, `components/`, `pages/`, plus `style.scss` as the root stylesheet. Each folder has an `_index.scss` that `@forward`s its partials. Use `@use`/`@forward`, never `@import`.
+- `abstracts/` (variables, functions, mixins) outputs no CSS. Partials pull it in with `@use "../abstracts" as *;`.
+- `breakpoints()` mixin: `sm` 16rem, `md` 48rem, `lg` 62rem, `xl` 75rem. Styles are mobile-first.
+- BEM naming: `.block`, `.block__element`, `.block--modifier`. One partial per block in `components/`.
