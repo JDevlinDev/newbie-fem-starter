@@ -1,1 +1,7 @@
-// Base font family, sizes and text styles
+@use "../abstracts" as *;
+
+body {
+  font-family: $font-family;
+  line-height: 1.5;
+  color: var(--color-ink);
+}

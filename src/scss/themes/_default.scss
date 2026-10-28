@@ -1,0 +1,8 @@
+@use "../abstracts" as *;
+
+// Turn every color in $palette into a CSS custom property: --color-grape, ...
+:root {
+  @each $name, $color in $palette {
+    --color-#{$name}: #{$color};
+  }
+}

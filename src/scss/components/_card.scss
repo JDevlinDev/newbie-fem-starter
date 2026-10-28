@@ -1,0 +1,24 @@
+@use "../abstracts" as *;
+
+.card {
+  max-width: rem(420);
+  padding: rem(28) rem(24);
+  border-radius: rem(20);
+  background-color: var(--color-marshmallow);
+  box-shadow: 0 rem(24) rem(48) hsl(255 35% 16% / 0.25);
+
+  @include breakpoints("md") {
+    padding: rem(40);
+  }
+
+  &__title {
+    margin-bottom: rem(12);
+    font-size: rem(28);
+    line-height: 1.15;
+    color: var(--color-grape);
+  }
+
+  &__text {
+    font-size: rem(17);
+  }
+}

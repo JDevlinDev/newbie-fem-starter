@@ -1,1 +1,12 @@
 // Sass variables and maps (colors, font stacks, spacing scales)
+
+$palette: (
+  "grape": hsl(268, 75%, 55%),
+  "bubblegum": hsl(330, 90%, 66%),
+  "tangerine": hsl(24, 100%, 64%),
+  "lemon": hsl(48, 100%, 68%),
+  "ink": hsl(255, 35%, 16%),
+  "marshmallow": hsl(270, 100%, 99%),
+);
+
+$font-family: "Outfit", sans-serif;
