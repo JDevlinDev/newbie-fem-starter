@@ -11,6 +11,28 @@
     padding: rem(40);
   }
 
+  // Pill label above the title
+  &__eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: rem(8);
+    margin-bottom: rem(16);
+    padding: rem(6) rem(14) rem(6) rem(10);
+    border-radius: 100vmax;
+    background-color: color-mix(in srgb, var(--color-mentor) 10%, transparent);
+    font-size: rem(13);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: var(--color-mentor);
+  }
+
+  &__eyebrow-logo {
+    width: rem(18);
+    height: rem(18);
+    background-color: currentColor;
+    mask: url("../images/icons/frontendmentor.svg") center / contain no-repeat;
+  }
+
   &__title {
     margin-bottom: rem(12);
     font-size: rem(28);

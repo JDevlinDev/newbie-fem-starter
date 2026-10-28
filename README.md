@@ -44,4 +44,4 @@ The card on the starter page is just demo content. Swap it out and make somethin
 
 ## Credits
 
-Tool logos come from [Simple Icons](https://simpleicons.org) (CC0); the Parcel mark is cropped from [Parcel's official logo](https://github.com/parcel-bundler/website). All logos are trademarks of their respective owners.
+Tool and Frontend Mentor logos come from [Simple Icons](https://simpleicons.org) (CC0); the Parcel mark is cropped from [Parcel's official logo](https://github.com/parcel-bundler/website). All logos are trademarks of their respective owners.
