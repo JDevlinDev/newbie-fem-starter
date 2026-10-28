@@ -1,8 +1,8 @@
 {
-  "name": "fem-starter",
+  "name": "newbie-fem-starter",
   "version": "1.0.0",
   "source": "src/index.html",
-  "description": "Starter template for Frontend Mentor challenges",
+  "description": "Newbie FEM Starter Pack: a cheeky little template for Frontend Mentor challenges",
   "scripts": {
     "start": "npx parcel --host 0.0.0.0 --port 4321 --dist-dir dist-dev",
     "build": "npm run cleanup && npx parcel build --public-url ./",
