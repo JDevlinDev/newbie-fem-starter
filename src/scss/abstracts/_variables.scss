@@ -1,13 +1,19 @@
 // Sass variables and maps (colors, font stacks, spacing scales)
 
+// Frontend Mentor's blues, plus a navy and slate scale for the dark theme
 $palette: (
-  "grape": hsl(268, 75%, 55%),
-  "bubblegum": hsl(330, 90%, 66%),
-  "tangerine": hsl(24, 100%, 64%),
-  "lemon": hsl(48, 100%, 68%),
-  "ink": hsl(255, 35%, 16%),
-  "marshmallow": hsl(270, 100%, 99%),
-  "mentor": hsl(227, 44%, 44%), // Frontend Mentor brand blue
+  "blue-100": hsl(225, 75%, 94%),
+  "blue-200": hsl(227, 73%, 89%),
+  "blue-500": hsl(227, 44%, 44%),
+  // Frontend Mentor brand blue
+  "navy-950": hsl(228, 45%, 7%),
+  "navy-900": hsl(228, 38%, 11%),
+  "navy-800": hsl(228, 32%, 16%),
+  "navy-700": hsl(228, 28%, 24%),
+  "slate-300": hsl(228, 22%, 80%),
+  "slate-400": hsl(228, 14%, 64%),
 );
 
-$font-family: "Outfit", sans-serif;
+// Same fonts as frontendmentor.io (both SIL Open Font License)
+$font-body: "Heebo", sans-serif;
+$font-heading: "Barlow", sans-serif;

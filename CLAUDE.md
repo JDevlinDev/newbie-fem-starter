@@ -17,5 +17,6 @@ A Frontend Mentor challenge: static HTML + Sass, bundled with Parcel, deployed t
 - `abstracts/` (variables, functions, mixins) outputs no CSS. Partials pull it in with `@use "../abstracts" as *;`.
 - `breakpoints()` mixin: `sm` 16rem, `md` 48rem, `lg` 62rem, `xl` 75rem. Styles are mobile-first.
 - `url()` paths in any partial are relative to `src/scss/style.scss` (Sass merges partials before Parcel resolves URLs), e.g. `url("../images/icons/sass.svg")`. Don't put `url()` inside custom properties; bundlers may not rewrite them.
+- Colors: `$palette` (abstracts) becomes `--color-*` custom properties in `themes/_default.scss`, which also maps them to semantic `--theme-*` tokens. Components use only `--theme-*`, so a new theme (e.g. light mode) only remaps that list.
 - BEM naming: `.block`, `.block__element`, `.block--modifier`. One partial per block in `components/`.
 - The card in `index.html` is demo content. Replace it (along with `components/_card.scss`, `components/_tools.scss`, `images/icons/` and the `$palette`) when starting a challenge.
